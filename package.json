@@ -1,0 +1,16 @@
+{
+  "name": "node-es6-babel",
+  "version": "1.0.0",
+  "description": "tutorial for nodejs using es6 with babel transpiler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "es6",
+    "babel"
+  ],
+  "author": "Watchanon Numnam",
+  "license": "ISC"
+}
