@@ -4,6 +4,7 @@
   "description": "tutorial for nodejs using es6 with babel transpiler",
   "main": "app.js",
   "scripts": {
+    "start": "babel-node src/index.js --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +18,8 @@
     "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.5.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
