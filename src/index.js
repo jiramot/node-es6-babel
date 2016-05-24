@@ -3,13 +3,13 @@
  */
 
 import express from 'express'
+import routes from './config/routes'
 
 const app = express()
 
-app.get('/', function(req, res){
-   res.send('hello world')
-});
+module.exports = app
+routes(app)
 
 app.listen(3000, function(){
-    console.log('starting server at port 3000')
+    console.log('starting at port 3000')
 })
