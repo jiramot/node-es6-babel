@@ -12,5 +12,8 @@
     "babel"
   ],
   "author": "Watchanon Numnam",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.9.0"
+  }
 }
